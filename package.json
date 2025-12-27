@@ -1,0 +1,22 @@
+{
+    "name": "csv-to-json-converter",
+    "version": "1.0.0",
+    "description": "Конвертер CSV в JSON с сохранением структуры",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "convert": "node index.js"
+    },
+    "dependencies": {
+        "csv-parser": "^3.0.0",
+        "csv-parse": "^5.4.0"
+    },
+    "keywords": [
+        "csv",
+        "json",
+        "converter",
+        "nodejs"
+    ],
+    "author": "Your Name",
+    "license": "MIT"
+}
